@@ -80,8 +80,3 @@ Delete a VM:
 ```bash
 az vm delete --resource-group <RESOURCE_GROUP_NAME> --name <VM_NAME> --yes
 ```
-
-```
-
-Let me know if you want similar for Storage or AKS!
-```
