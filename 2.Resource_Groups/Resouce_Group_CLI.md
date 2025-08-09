@@ -42,6 +42,3 @@ az group delete --name <RESOURCE_GROUP_NAME> --yes --no-wait
 ```
 
 ```
-
-Do you want me to also make a **cheatsheet like this** for **Azure Storage Account** so you can keep them in the same study format?
-```
