@@ -89,6 +89,3 @@ az network vnet delete --resource-group <RESOURCE_GROUP_NAME> --name <VNET_NAME>
 ```
 
 ```
-
-If you want, I can provide similar Markdown for Network Security Groups or Route Tables!
-```
