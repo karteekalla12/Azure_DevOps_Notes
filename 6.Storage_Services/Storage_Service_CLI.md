@@ -67,6 +67,3 @@ az storage account delete --resource-group <RESOURCE_GROUP_NAME> --name <STORAGE
 ```
 
 ```
-
-If you want similar Markdown for Blob Containers or File Shares, just ask!
-```
