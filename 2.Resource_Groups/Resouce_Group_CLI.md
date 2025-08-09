@@ -40,5 +40,3 @@ az group show --name <RESOURCE_GROUP_NAME> --output json
 ```bash
 az group delete --name <RESOURCE_GROUP_NAME> --yes --no-wait
 ```
-
-```
