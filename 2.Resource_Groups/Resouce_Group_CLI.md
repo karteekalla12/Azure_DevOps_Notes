@@ -1,34 +1,47 @@
 # Azure CLI – Resource Group Management
 
+## Login to Azure
 ```bash
-# Login to Azure
 az login
+````
 
-# Set subscription (optional)
+## Set Subscription (Optional)
+
+```bash
 az account set --subscription "<SUBSCRIPTION_ID_OR_NAME>"
+```
 
-# Create a resource group
-az group create \
-  --name <RESOURCE_GROUP_NAME> \
-  --location <LOCATION> \
-  [--tags key1=value1 key2=value2] \
-  [--subscription <SUBSCRIPTION_ID>] \
-  [--output table|json|yaml]
+## Create a Resource Group
 
-# List all resource groups
-az group list \
-  [--query <JMESPathQuery>] \
-  [--output table|json|yaml]
+```bash
+az group create --name <RESOURCE_GROUP_NAME> --location <LOCATION>
+```
 
-# Show details of a specific resource group
-az group show \
-  --name <RESOURCE_GROUP_NAME> \
-  [--query <JMESPathQuery>] \
-  [--output table|json|yaml]
+**Example:**
 
-# Delete a resource group
-az group delete \
-  --name <RESOURCE_GROUP_NAME> \
-  --yes \
-  [--no-wait] \
-  [--subscription <SUBSCRIPTION_ID>]
+```bash
+az group create --name MyResourceGroup --location eastus
+```
+
+## List All Resource Groups
+
+```bash
+az group list --output table
+```
+
+## Show Resource Group Details
+
+```bash
+az group show --name <RESOURCE_GROUP_NAME> --output json
+```
+
+## Delete a Resource Group
+
+```bash
+az group delete --name <RESOURCE_GROUP_NAME> --yes --no-wait
+```
+
+```
+
+Do you want me to also make a **cheatsheet like this** for **Azure Storage Account** so you can keep them in the same study format?
+```
