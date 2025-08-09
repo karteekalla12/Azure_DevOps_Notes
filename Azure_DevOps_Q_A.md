@@ -1,4 +1,3 @@
-```markdown
 # Azure Interview Questions & Answers
 
 ## Table of Contents
@@ -362,7 +361,6 @@ rg-app-prod-weu (West US)
        location: 'eastus'
        templateLocation: 'Linked artifact'
        csmFile: 'vm-deployment.json'
-   ```
 4. Use parameter files for environment-specific values  
 5. Implement approvals for production deployments
 
@@ -440,8 +438,6 @@ rg-app-prod-weu (West US)
    - File-level recovery  
    - Cross-region restore (with CRR)  
 *Best Practice*: Test restores quarterly using "Restore Test" feature
-
----
 
 ## Networking
 
@@ -569,8 +565,6 @@ rg-app-prod-weu (West US)
 - Test connectivity with Connection Monitor  
 - Review DNS resolution  
 
----
-
 ## IAM (Identity and Access Management)
 
 ### 51. What are the key differences between Azure AD and Azure RBAC?
@@ -687,7 +681,6 @@ rg-app-prod-weu (West US)
   - Enhanced monitoring  
   - Multi-factor authentication required  
 
----
 
 ## Storage Services
 
@@ -855,7 +848,6 @@ rg-app-prod-weu (West US)
 ```
 *Benefits*: Reduces costs by 65%+ through automatic tiering.
 
----
 
 ## Key Vault
 
@@ -1032,5 +1024,3 @@ await retryPolicy.ExecuteAsync(async () => {
 | Audit logs for all access             | Limited auditing                    |  
 | Higher latency (5-10ms)               | Lower latency (1-2ms)               |  
 | Limited to 10,000 secrets per vault   | Higher scale limits                 |  
-*Best Practice*: Store secrets in Key Vault, reference them from App Configuration.
-```
