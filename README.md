@@ -119,6 +119,7 @@ The application will:
   terraform apply
 ````
 
+
 * **Outcome:** Fully provisioned Azure environment ready for deployments.
 
 ---
