@@ -113,16 +113,12 @@ The application will:
   - Azure Key Vault
   - Azure Database for PostgreSQL
 - **Run Terraform** from Azure DevOps Pipeline:
-  ```bash
-  terraform init
-  terraform plan
-  terraform apply
-````
+  - terraform init
+  - terraform plan
+  - terraform apply
 
 
 * **Outcome:** Fully provisioned Azure environment ready for deployments.
-
----
 
 ### **4️⃣ Application Development**
 
