@@ -120,6 +120,8 @@ The application will:
 
 * **Outcome:** Fully provisioned Azure environment ready for deployments.
 
+---
+
 ### **4️⃣ Application Development**
 
 * Developers work on services in parallel.
